@@ -1,0 +1,78 @@
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f9f9f9;
+  }
+  
+  .register-container {
+    width: 100%;
+    max-width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin: 2rem 0;
+  }
+  
+  .register-container h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2e7d32;
+  }
+  
+  .form-section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .form-section h2 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .form-help {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+  
+  .location-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-block {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .register-footer {
+    margin-top: 2rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  .register-footer a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+  
+  .register-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .register-container {
+      padding: 1.5rem;
+    }
+    
+    .location-fields {
+      grid-template-columns: 1fr;
+    }
+  }

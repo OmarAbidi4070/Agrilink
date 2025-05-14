@@ -1,0 +1,218 @@
+.community-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .community-header {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .community-header h1 {
+    color: #2e7d32;
+    margin-bottom: 0.5rem;
+  }
+  
+  .community-header p {
+    color: #666;
+    font-size: 1.1rem;
+  }
+  
+  .filter-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .filter-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: #2e7d32;
+  }
+  
+  .filter-header h2 {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+  
+  .filter-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .filter-btn {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+  }
+  
+  .filter-btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .filter-btn.active {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .no-diagnoses {
+    background-color: white;
+    border-radius: 10px;
+    padding: 3rem 2rem;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .no-diagnoses p {
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .diagnoses-list {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .diagnosis-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .diagnosis-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #e8f5e9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.75rem;
+    color: #2e7d32;
+  }
+  
+  .user-name {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .diagnosis-date {
+    display: flex;
+    align-items: center;
+    color: #999;
+    font-size: 0.9rem;
+  }
+  
+  .diagnosis-date svg {
+    margin-right: 0.5rem;
+  }
+  
+  .diagnosis-content {
+    padding: 1.5rem;
+  }
+  
+  .diagnosis-content h3 {
+    color: #2e7d32;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .diagnosis-image {
+    margin-bottom: 1.5rem;
+  }
+  
+  .diagnosis-image img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .diagnosis-details p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .confidence {
+    color: #333;
+  }
+  
+  .description, .treatment {
+    color: #555;
+  }
+  
+  .affected-crops {
+    margin-top: 1.5rem;
+  }
+  
+  .crops-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .crop-tag {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 0.3rem 0.7rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+  }
+  
+  .loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .community-page {
+      padding: 1rem;
+    }
+    
+    .diagnosis-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .diagnosis-date {
+      margin-top: 0.5rem;
+    }
+  }
